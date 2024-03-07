@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T10:45:14 IST" name="Suite" finished-at="2024-03-07T10:46:59 IST" duration-ms="104839">
+    <groups>
+      <group name="smoke">
+        <method signature="Finding_Hospitals.Search_City()[pri:0, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="Search_City" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.get_DoctorDetails()[pri:7, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="get_DoctorDetails" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.ClickDemoBtn()[pri:15, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="ClickDemoBtn" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.verifyDemoBtn_2()[pri:18, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="verifyDemoBtn_2" class="Test_Cases.Finding_Hospitals"/>
+      </group> <!-- smoke -->
+      <group name="regression_1">
+        <method signature="Finding_Hospitals.Search_Dentists()[pri:1, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="Search_Dentists" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.navigateToSurgeries()[pri:8, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="navigateToSurgeries" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.sugeryNames()[pri:10, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="sugeryNames" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.navigatioToHealth_Page()[pri:12, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="navigatioToHealth_Page" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.verifyDemoBtn_1()[pri:14, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="verifyDemoBtn_1" class="Test_Cases.Finding_Hospitals"/>
+      </group> <!-- regression_1 -->
+      <group name="regression_2">
+        <method signature="Finding_Hospitals.select_PatientStories()[pri:2, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="select_PatientStories" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.select_Experience()[pri:3, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="select_Experience" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.applyFilters()[pri:4, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="applyFilters" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.applyFilters_1()[pri:5, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="applyFilters_1" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.applyFilters_2()[pri:6, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="applyFilters_2" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.ScrollToSurgeries()[pri:9, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="ScrollToSurgeries" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.ScrollToTop()[pri:11, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="ScrollToTop" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.scrollToDemoBtn()[pri:13, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="scrollToDemoBtn" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.ClearingData()[pri:17, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="ClearingData" class="Test_Cases.Finding_Hospitals"/>
+        <method signature="Finding_Hospitals.Verify_ResultMsg()[pri:19, instance:Test_Cases.Finding_Hospitals@f5958c9]" name="Verify_ResultMsg" class="Test_Cases.Finding_Hospitals"/>
+      </group> <!-- regression_2 -->
+    </groups>
+    <test started-at="2024-03-07T10:45:14 IST" name="Test" finished-at="2024-03-07T10:46:59 IST" duration-ms="104839">
+      <class name="Test_Cases.Finding_Hospitals">
+        <test-method is-config="true" signature="Setup_Browser(java.lang.String)[pri:0, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:15 IST" name="Setup_Browser" finished-at="2024-03-07T10:45:30 IST" duration-ms="14888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup_Browser -->
+        <test-method signature="Search_City()[pri:0, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:30 IST" name="Search_City" finished-at="2024-03-07T10:45:35 IST" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_City -->
+        <test-method signature="Search_Dentists()[pri:1, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:35 IST" name="Search_Dentists" finished-at="2024-03-07T10:45:41 IST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Dentists -->
+        <test-method signature="select_PatientStories()[pri:2, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:41 IST" name="select_PatientStories" finished-at="2024-03-07T10:45:44 IST" duration-ms="2587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_PatientStories -->
+        <test-method signature="select_Experience()[pri:3, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:45 IST" name="select_Experience" finished-at="2024-03-07T10:45:48 IST" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Experience -->
+        <test-method signature="applyFilters()[pri:4, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:49 IST" name="applyFilters" finished-at="2024-03-07T10:45:52 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method signature="applyFilters_1()[pri:5, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:53 IST" name="applyFilters_1" finished-at="2024-03-07T10:45:55 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters_1 -->
+        <test-method signature="applyFilters_2()[pri:6, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:45:56 IST" name="applyFilters_2" finished-at="2024-03-07T10:46:01 IST" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters_2 -->
+        <test-method signature="get_DoctorDetails()[pri:7, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:01 IST" name="get_DoctorDetails" finished-at="2024-03-07T10:46:31 IST" duration-ms="29678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_DoctorDetails -->
+        <test-method signature="navigateToSurgeries()[pri:8, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:31 IST" name="navigateToSurgeries" finished-at="2024-03-07T10:46:33 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSurgeries -->
+        <test-method signature="ScrollToSurgeries()[pri:9, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:33 IST" name="ScrollToSurgeries" finished-at="2024-03-07T10:46:33 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToSurgeries -->
+        <test-method signature="sugeryNames()[pri:10, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:34 IST" name="sugeryNames" finished-at="2024-03-07T10:46:36 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sugeryNames -->
+        <test-method signature="ScrollToTop()[pri:11, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:36 IST" name="ScrollToTop" finished-at="2024-03-07T10:46:36 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToTop -->
+        <test-method signature="navigatioToHealth_Page()[pri:12, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:37 IST" name="navigatioToHealth_Page" finished-at="2024-03-07T10:46:47 IST" duration-ms="10666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatioToHealth_Page -->
+        <test-method signature="scrollToDemoBtn()[pri:13, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:47 IST" name="scrollToDemoBtn" finished-at="2024-03-07T10:46:48 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToDemoBtn -->
+        <test-method signature="verifyDemoBtn_1()[pri:14, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:48 IST" name="verifyDemoBtn_1" finished-at="2024-03-07T10:46:49 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDemoBtn_1 -->
+        <test-method signature="ClickDemoBtn()[pri:15, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:50 IST" name="ClickDemoBtn" finished-at="2024-03-07T10:46:51 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDemoBtn -->
+        <test-method signature="ClearingData()[pri:17, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:51 IST" name="ClearingData" finished-at="2024-03-07T10:46:52 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearingData -->
+        <test-method signature="verifyDemoBtn_2()[pri:18, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:52 IST" name="verifyDemoBtn_2" finished-at="2024-03-07T10:46:56 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDemoBtn_2 -->
+        <test-method signature="Verify_ResultMsg()[pri:19, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:56 IST" name="Verify_ResultMsg" finished-at="2024-03-07T10:46:57 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ResultMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Cases.Finding_Hospitals@f5958c9]" started-at="2024-03-07T10:46:58 IST" name="tearDown" finished-at="2024-03-07T10:46:59 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases.Finding_Hospitals -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

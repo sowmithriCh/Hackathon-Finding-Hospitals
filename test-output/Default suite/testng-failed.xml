@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test_Cases.Finding_Hospitals">
+        <methods>
+          <include name="Search_Dentists"/>
+          <include name="applyFilters"/>
+          <include name="select_PatientStories"/>
+          <include name="Setup_Browser"/>
+          <include name="get_DoctorDetails"/>
+          <include name="applyFilters_2"/>
+          <include name="ClickDemoBtn"/>
+          <include name="verifyDemoBtn_1"/>
+          <include name="ClearingData"/>
+          <include name="Verify_ResultMsg"/>
+          <include name="navigateToSurgeries"/>
+          <include name="Search_City"/>
+          <include name="ScrollToSurgeries"/>
+          <include name="scrollToDemoBtn"/>
+          <include name="applyFilters_1"/>
+          <include name="tearDown"/>
+          <include name="ScrollToTop"/>
+          <include name="sugeryNames"/>
+          <include name="select_Experience"/>
+          <include name="navigatioToHealth_Page"/>
+          <include name="verifyDemoBtn_2"/>
+        </methods>
+      </class> <!-- Test_Cases.Finding_Hospitals -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

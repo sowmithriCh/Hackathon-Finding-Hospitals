@@ -1,0 +1,6 @@
+10:46:49.961 [main] INFO  Test_Cases.Finding_Hospitals -  Entering incorrect detials to validate demo button 
+10:46:50.468 [main] INFO  Test_Cases.Finding_Hospitals - -------- Validating demo button --------
+10:46:51.112 [main] INFO  Test_Cases.Finding_Hospitals -  Validating demo button with incorrect details 
+10:46:52.014 [main] INFO  Test_Cases.Finding_Hospitals -  clearing the previous data 
+10:46:53.921 [main] INFO  Test_Cases.Finding_Hospitals -  Validating demo button with correct details 
+10:46:57.938 [main] INFO  Test_Cases.Finding_Hospitals -  Verifying Thank you message 
